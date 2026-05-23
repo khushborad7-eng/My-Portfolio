@@ -64,6 +64,6 @@ Hi, I'm **Khush Borad** — a passionate Full Stack Web Developer and Computer S
 
 ## Screenshot
 
-![Portfolio Screenshot]()
+![Portfolio Screenshot](My Portfolio/assets/img/khushborad-portfolio.netlify.app_.png)
 
 > Explore the website, update the content, and customize the design to make it your own.
