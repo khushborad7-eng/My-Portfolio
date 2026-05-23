@@ -1,44 +1,69 @@
-# Hamza Zaidi's Portfolio Website 🌐
+# Khush Borad Portfolio Website 🌐
 
-Welcome to my portfolio website! This repository contains the source code for my personal website, showcasing my skills, projects, and experiences.
+This repository contains the source code for Khush Borad's personal portfolio website. The site showcases full-stack web development skills, professional experience, services, and contact details in a modern, responsive layout.
 
 ## Table of Contents
 
-- [About Me](#about-me)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
+- [About](#about)
+- [Skills](#skills)
+- [Services](#services)
+- [Experience](#experience)
+- [Projects](#projects)
+- [Contact](#contact)
 - [Getting Started](#getting-started)
 - [Screenshot](#screenshot)
 
-## About Me
+## About
 
-**I'm Hamza Zaidi, a passionate software developer with a background in computer science. I specialize in front-end development, UI/UX design, and full-stack projects. My goal is to create visually appealing and user-friendly websites that enhance the user experience.**
+Hi, I'm **Khush Borad** — a passionate Full Stack Web Developer and Computer Science student. I build responsive websites and web applications using modern front-end and back-end technologies, with a focus on usability, performance, and clean design.
 
-## Technologies Used
+## Skills
 
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap
+- React
+- PHP
+- Laravel
+- Node.js
+- MongoDB
+- MySQL
 
-## Features
+## Services
 
-- Responsive design
-- Clean and modern UI/UX
-- Smooth animations and transitions
-- Interactive elements
-- Real-time data fetching (if applicable)
-- Cross-browser compatibility
-- SEO optimization
-- Accessibility considerations
+- Front-End Development: responsive, interactive UI built with HTML, CSS, JavaScript, React, and Bootstrap.
+- Full-Stack Projects: end-to-end web applications using PHP, Laravel, Node.js, and MySQL.
+- MS Office Services: professional documents created with Word, Excel, and PowerPoint.
+- Graphic Design: brand-focused visuals and creative assets.
+- Custom Solutions: tailored web development services for unique project requirements.
+
+## Experience
+
+- 6 months internship as a Full Stack Web Developer at Fuerte Developers, working with Laravel, MySQL, and web application development.
+- Currently pursuing a B.Tech in Computer Science and Engineering at Silver Oak University.
+- Completed a Diploma in Computer Engineering from RK University.
+
+## Projects
+
+- Completed 10+ projects across front-end and back-end development.
+- Includes portfolio website, web applications, and client-focused solutions.
+- View more work on GitHub.
+
+## Contact
+
+- Email: `khushborad7@gmail.com`
+- LinkedIn: [linkedin.com/in/khush-borad-460150371](https://www.linkedin.com/in/khush-borad-460150371)
+- GitHub: [github.com/khushborad7-eng](https://github.com/khushborad7-eng)
 
 ## Getting Started
 
-### Clone the repository: 
-`git clone https://github.com/HamzaZaidiX/My-Portfolio-html-css-js.git`
+1. Clone or download the repository.
+2. Open `index.html` in a web browser.
+3. The portfolio is fully static and runs locally without a server.
 
-## [Portfolio Website Click Here =>💁‍♂️🚀](https://hamza-zaidi.netlify.app/)
+## Screenshot
 
-## Screenshot:
-![image](https://github.com/user-attachments/assets/df8f17d8-f5e6-4ee6-be3e-8d38c66ed6ab)
+![Portfolio Screenshot](My Portfolio/assets/img/khushborad-portfolio.netlify.app_.png)
 
-**Feel free to explore the code and customize it to suit your needs also Like and Give Heart to `[HAMZA ZAIDI](https://github.com/HamzaZaidiX)` ! Happy coding!**
+> Explore the website, update the content, and customize the design to make it your own.
