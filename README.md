@@ -64,6 +64,6 @@ Hi, I'm **Khush Borad** — a passionate Full Stack Web Developer and Computer S
 
 ## Screenshot
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/df8f17d8-f5e6-4ee6-be3e-8d38c66ed6ab)
+![Portfolio Screenshot]()
 
 > Explore the website, update the content, and customize the design to make it your own.
