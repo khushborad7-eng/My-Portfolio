@@ -65,6 +65,6 @@ Hi, I'm **Khush Borad** — a passionate Full Stack Web Developer and Computer S
 ## Screenshot
 
 ![Portfolio Screenshot]
-<img src="game/Screenshots/games-chess-tictactoe.netlify.app_.png" width="500" height="500" alt="Portal Game">
+<img src="My Portfolio/assets/img/khushborad-portfolio.netlify.app_ (1).png" width="500" height="500" alt="screenshot">
 
 > Explore the website, update the content, and customize the design to make it your own.
