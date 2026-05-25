@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="Khush Borad - Full Stack Web Developer Portfolio">
+    <meta name="description"
+        content="Discover Khush Borad's professional portfolio showcasing expertise in full-stack web development, innovative web applications, and creative solutions. Explore projects, skills, and achievements.">
+    <meta name="keywords"
+        content="Khush Borad, Full Stack Developer, Web Developer, Portfolio, Web Development, React, Frontend, Backend, Software Engineer, Professional Portfolio, PHP, Laravel, Node.js, MongoDB, MySQL">
+    <meta name="author" content="Khush Borad">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/img/profile-pic.jpeg">
+    <title>Khush Borad Portfolio</title>
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="main.css">
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Khush<Span>Borad</Span>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">Qualification</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://github.com/khushborad7-eng" class="nav__link">GitHub</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================== main ====================-->
+    <main class="main">
+        <!--=================== Hero ====================-->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Hi, I am Khush Borad</h1>
+                        <h2 id="typewriter"
+                            style="font-size: 25px; font-weight: bold; color: #1e90ff; border-right: 2px solid #1e90ff; white-space: nowrap; overflow: hidden; display: inline-block;">
+                        </h2>
+                        <p style="margin-top:15px;" class="hero__description">🌟 Passionate Full Stack Web Developer and
+                            Computer Science student
+                            🎓, dedicated to crafting user-centric websites and web applications 💻.
+                            Proficient in Frontend and Backend technologies 👨‍💻, delivering top-notch, responsive, and
+                            visually stunning websites 🌐. Specializing in PHP, Laravel, Node.js, React, and MySQL 🛠️, driven by
+                            creativity and innovative problem-solving 💡. Eager to contribute to dynamic teams and build
+                            impactful web solutions 🤝.
+                        </p>
+                        <a href="mailto:khushborad7@gmail.com" class="btn--primary"
+                            style="padding:1.5rem 4rem;margin-bottom:10px;display:inline-block;">Hire Me!</a>
+                        <div class="hero__info">
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">10+</p>
+                                <h2 class="hero__info-title">Projects<br>Completed</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/img/profile-pic.jpeg" alt="Khush" class="hero__img">
+                </div>
+            </div>
+        </section>
+        <!--=================== About ====================-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">I'm a Full Stack Web Developer with Innovative Solutions.</h3>
+                        <p class="about__description">I specialize in creating websites and web applications using modern technologies.
+                            With expertise in both front-end and back-end development, I deliver efficient and scalable solutions.
+                            I am passionate about clean code, user experience, and continuous learning.
+                            I'm always eager to take on new challenges and contribute to impactful projects with dynamic teams.
+                        </p>
+                        <a href="#project" class="btn btn--primary">Know More</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Technologies I've been working with:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Backend</h4>
+                                <ul class="skills__list">
+
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        PHP</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Node.js</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MongoDB</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        React</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Qualification ====================-->
+        <section id="qualification" class="section qualification">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Qualification</h2>
+                    <span class="section__subtitle">Experience & Education</span>
+                </div>
+                <!--============== Professional Experience ============-->
+                <div class="qualification__wrapper" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: stretch; justify-content: center;">
+                    <div class="qualification__item" style="max-width: 480px; width: 100%; background: linear-gradient(135deg, #fff 80%, #25ab75 100%); border-radius: 1.6rem; box-shadow: 0 8px 30px rgba(37, 171, 117, 0.14); padding: 2.4rem; margin: 0 auto; display: flex; flex-direction: column; justify-content: center;">
+                        <h3 class="qualification__name" style="display: flex; align-items: center; gap: 1rem; font-size: 2rem; margin-bottom: 2rem; border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; color: #25ab75;">
+                            <i class="ri-briefcase-fill"></i>
+                            Professional Experience
+                        </h3>
+                        <h3 class="qualification__title" style="font-size: 1.4rem; font-weight: bold; margin-bottom: 0.5rem; color: #222;">Full Stack Web Developer</h3>
+                        <h4 class="qualification__title" style="font-size: 1.2rem; margin-bottom: 1rem; color: #333;">Fuerte Developers</h4>
+                        <p class="qualification__description" style="font-size: 1rem; color: #444; margin-bottom: 1.2rem;">Completed a comprehensive 6-month internship in Laravel framework development. Gained hands-on experience in building robust web applications, implementing backend solutions, and working with MySQL databases. Collaborated with the team to develop feature-rich web applications and enhanced my proficiency in modern web development practices.</p>
+                        <span class="qualification__date" style="font-size: 1rem; color: #25ab75; font-weight: bold;">6 Months Internship</span>
+                    </div>
+                    <div class="certificate-card" style="max-width: 480px; width: 100%; background: linear-gradient(135deg, #25ab75 80%, #fff 100%); border-radius: 1.6rem; box-shadow: 0 8px 30px rgba(37, 171, 117, 0.14); padding: 2.4rem; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <img src="assets/img/Internship Certificate Khush.jpg" alt="Internship Certificate" style="width: 100%; max-width: 340px; border-radius: 1.2rem; box-shadow: 0 4px 18px rgba(37,171,117,0.18); margin-bottom: 1.2rem;">
+                        <a href="assets/img/Internship Certificate Khush Borad.pdf" download="Internship Certificate Khush.pdf" class="btn btn--primary" style="margin-top: 0.5rem; padding: 1.2rem 2rem; font-size: 1.4rem;">Download Certificate</a>
+                    </div>
+                </div>
+                <!--============== Education ============-->
+                <div class="qualification__wrapper">
+                    <h3 class="qualification__name">
+                        <i class="ri-booklet-fill"></i>
+                        Education
+                    </h3>
+                    <div class="d-grid qualification__content">
+                        <!-- Education 1-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">B.Tech in Computer Science and Engineering</h3>
+                            <h4 class="qualification__title">Silver Oak University - Ahmedabad</h4>
+                            <p class="qualification__description">Currently pursuing my Bachelor's degree in Computer Science and Engineering.
+                                Gaining deep knowledge in advanced programming, software design, data structures, and algorithms.
+                                Engaged in hands-on projects and academic coursework that strengthen my problem-solving skills
+                                and technical expertise in modern technologies.
+                            </p>
+                            <span class="qualification__date">Currently Pursuing</span>
+                        </div>
+                        <!-- Education 2-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Diploma in Computer Engineering</h3>
+                            <h4 class="qualification__title">RK University - Rajkot</h4>
+                            <p class="qualification__description">Successfully completed my diploma in Computer Engineering.
+                                Developed strong foundational knowledge in computer science fundamentals, programming languages,
+                                networking, and web development. This education shaped my career path and equipped me with essential
+                                technical skills for full-stack web development.
+                            </p>
+                            <span class="qualification__date">Completed</span>
+                        </div>
+                        <!-- Education 3-->
+                        <div class="qualification__item">
+                            <h3 class="qualification__title">Secondary School</h3>
+                            <h4 class="qualification__title">Sarvodaya School - Rajkot</h4>
+                            <span class="qualification__date">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualification__footer">
+                    <p class="qualification__footer-text">See my full resume</p>
+                    <a href="./assets/My Resume.pdf" download class="btn btn--primary">Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== services ====================-->
+        <section id="services" class="section services" style="padding: 80px 0; background-color: inherit;">
+            <div style="max-width: 1200px; margin: 0 auto; padding: 0 24px;">
+                <h2 style="font-size: 32px; font-weight: bold; text-align: center; color: white; margin-bottom: 32px;">
+                    Services
+                </h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+                    <!-- Front-End Development -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-layout-4-fill" style="font-size: 40px; color: #4299e1;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Front-End Development
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Creating responsive and interactive user
+                            interfaces using HTML, CSS, JavaScript, React, and Bootstrap.</p>
+                    </div>
+
+                    <!-- Full-Stack Projects -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-code-s-slash-line" style="font-size: 40px; color: #48bb78;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Full-Stack Projects
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Developing end-to-end web applications with both
+                            front-end and back-end using PHP, Laravel, Node.js, and MySQL.</p>
+                    </div>
+
+                    <!-- MS Office Services -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-file-fill" style="font-size: 40px; color: #5a67d8;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            MS Office Services
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Expertise in MS Word, Excel, PowerPoint, and
+                            professional document creation for business productivity.</p>
+                    </div>
+
+                    <!-- Graphic Designing Services -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-palette-line" style="font-size: 40px; color: #d45757;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Graphic Designing Services
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Creating innovative and engaging designs to elevate your
+                            brand presence using design tools and creative expertise.</p>
+                    </div>
+
+                    <!-- Other Services -->
+                    <div
+                        style="background-color: black; padding: 24px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+                            <i class="ri-lightbulb-flash-fill" style="font-size: 40px; color: #00ccff;"></i>
+                        </div>
+                        <h3
+                            style="font-size: 20px; font-weight: 600; text-align: center; margin-bottom: 8px; color: white;">
+                            Other Services
+                        </h3>
+                        <p style="color: #718096; text-align: center;">Providing tailored solutions and custom services
+                            for unique requirements. I'm here to help you succeed!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=================== Projects ====================-->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">My recent work</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                </div>
+                <div style="align-items: center;justify-content: center;display: flex; margin-top:10px;"><a
+                        href="https://github.com/khushborad7-eng" class="btn--primary"
+                        style="padding:1.5rem 4rem;margin-top:10px;display: inline-block;align-items:center;text-align:center;justify-content:center;">View
+                        More Projects
+                        <i style="text-align:center;" class="fa-solid fa-angle-down fa-bounce"></i></a></div>
+            </div>
+
+        </section>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+        </div>
+        </section>
+
+        <!--=================== Contact ====================-->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="d-grid contact__wrapper">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Interested in working together? Let's talk</h2>
+                        <p class="contact__description">
+                            Ready to work together on your next software project? I'd love to hear from you!
+                            Feel free to get in touch using the contact information below.
+                            Whether uou have a specific project in mind or just want to chat about your software
+                            development needs , I am here to help.
+                            I will respond to your message as quickly as possible and look forward to connecting with
+                            you soon.
+                        </p>
+                    </div>
+                    <div class="contact__btn">
+                        <a style="align-items:center; gap:10px; text-align:center;"
+                            href="https://www.linkedin.com/in/khush-borad-460150371" class="btn btn--secondary">Get in touch
+                            <i class="fa-solid fa-handshake"></i></a>
+                    </div>
+                </div>
+              
+            </div>
+
+            </div>
+        </section>
+
+        <section class="section contact-details">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Contact Details</h2>
+                    <span class="section__subtitle">Let's connect</span>
+                </div>
+                <div class="contact-details__grid">
+                    <article class="contact-details__card">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>khushborad7@gmail.com</p>
+                        <a href="mailto:khushborad7@gmail.com">Send a mail</a>
+                    </article>
+                    <article class="contact-details__card">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Khush Borad</p>
+                        <a href="https://www.linkedin.com/in/khush-borad-460150371" target="_blank" rel="noreferrer">View profile</a>
+                    </article>
+                    <article class="contact-details__card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Ahmedabad, Gujarat</p>
+                        <span>Available for remote & on-site work</span>
+                    </article>
+                    <article class="contact-details__card">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3>Availability</h3>
+                        <p>Open to freelance, internships, and full-time roles</p>
+                        <span>Reply within 24 hours</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--=================== footer ====================-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper"
+                style="display:flex;justify-content:center; align-items:center; text-align:center;">
+                <div class="footer__content">
+                    <h4 class="footer__title">Follow Me</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="mailto:khushborad7@gmail.com" target="_blank" class="footer__social-link">
+                                <i class="fa-regular fa-envelope fa-beat-fade"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.linkedin.com/in/khush-borad-460150371" target="_blank" class="footer__social-link">
+                                <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://github.com/khushborad7-eng" target="_blank" class="footer__social-link">
+                                <i class="fa-brands fa-github fa-fade"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <p class="footer__copyright">&copy; 2024 Khush Borad. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=================== Main JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+<script>
+    const typewriterTexts = [
+      "Full Stack Web Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "PHP & Laravel Expert",
+      "React Enthusiast",
+      "Problem Solver",
+    ];
+
+    let currentTextIndex = 0;
+    let charIndex = 0;
+
+    const typewriterElement = document.getElementById("typewriter");
+
+    function typeEffect() {
+      // Get the current text
+      const currentText = typewriterTexts[currentTextIndex];
+
+      // Update the text content with the next character
+      typewriterElement.textContent = currentText.slice(0, charIndex);
+
+      // Increment the character index
+      charIndex++;
+
+      // If the full text has been typed, pause and then switch to the next text
+      if (charIndex > currentText.length) {
+        setTimeout(() => {
+          charIndex = 0; // Reset character index
+          currentTextIndex = (currentTextIndex + 1) % typewriterTexts.length; // Move to next text
+        }, 2000); // Pause before switching
+      }
+
+      // Continue typing every 100ms
+      setTimeout(typeEffect, 100);
+    }
+
+    // Start the typewriter effect
+    typeEffect();
+</script>
